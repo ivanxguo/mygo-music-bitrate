@@ -1,0 +1,21 @@
+{
+  "id": "bitrate",
+  "name": "Bitrate",
+  "version": "1.0.0",
+  "minAppVersion": "0.1.8",
+  "main": "index.js",
+  "permissions": {
+    "network": ["interface.music.163.com"]
+  },
+  "settings": [
+    {
+      "key": "cookie",
+      "label": "NetEase cookie",
+      "help": "Optional. Paste MUSIC_U, or a cookie that contains it, to check membership levels such as lossless and Hi-Res and to show the audio format when NetEase returns one. The app stores it and sends it only to NetEase. Leave it empty to show the public song record only. Never share this value.",
+      "link": "https://music.163.com"
+    }
+  ],
+  "navigation": [
+    { "title": "Bitrate", "page": "bitrate", "icon": "note" }
+  ]
+}
